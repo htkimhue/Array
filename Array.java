@@ -49,13 +49,13 @@ public class Array {
 
     }
 
-    //4.
+    //4. Write a method to display the array
     public static void displayArray(int[] arr) {
         System.out.println(Arrays.toString(arr));
 
     }
 
-    //5.
+    //5. Write a method to sort the array in ascending order
     public static void ascending(int[] arr) {
         Arrays.sort(arr);
         for (int i = 0; i < arr.length; i++) {
@@ -70,7 +70,7 @@ public class Array {
 
     }
 
-    //6.
+    //6. Write a method to find even numbers in the array
     public static void findEvenNumber(int[] arr) {
         System.out.print("Even numbers in array: ");
         for (int i : arr) {
@@ -81,7 +81,7 @@ public class Array {
         System.out.println();
     }
 
-    //7.
+    //7. Write a method to find odd number in the array 
     public static void findOddNumber(int[] arr) {
         System.out.print("Odd number in array: ");
         for (int i : arr) {
@@ -92,9 +92,9 @@ public class Array {
         System.out.println();
     }
 
-    //8.
+    //8. Write a method to find the largest element in the array
     public static void findLargesElement(int[] arr) {
-        System.out.println("Largest number in array: ");
+        System.out.print("Largest number in array: ");
         int max = arr[0];
         for (int i : arr) {
             if (i > max) {
@@ -104,7 +104,7 @@ public class Array {
         System.out.println(max);
     }
 
-    //9.
+    //9. Write a method to calculate the sum of elements divisible by 7
     public static void calculateSumDivisibleBy7(int[] arr) {
         int sum = 0;
         for (int i : arr) {
